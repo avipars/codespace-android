@@ -19,14 +19,15 @@ Let's setup Parse into a brand new Android app following the steps below.
   * Call it `SimpleChat`
   * Select API 29 for the Minimum SDK
   * [**Rename**](https://hackmd.io/@tejen/ryejOdba_) the first activity ("MainActivity") to `ChatActivity`
-  * Add this to the `allprojects` section of your root `build.gradle:`:
+  * Add the JitPack library to the `settings.gradle` file:
 
     ```gradle
-    allprojects {
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         repositories {
             google()
-            jcenter()
-            maven { url "https://jitpack.io" } // add this line
+            mavenCentral()
+            maven { url "https://jitpack.io" }
         }
     }
     ```
