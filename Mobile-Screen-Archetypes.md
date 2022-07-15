@@ -44,17 +44,17 @@ Login screens usually require the following components:
 
 First, sign in pages:
 
-<img src="http://cdn.pttrns.com/357/6082_w250.jpg" height="420" alt="Sign In" />&nbsp;
-<img src="http://cdn.pttrns.com/356/6045_w250.jpg" height="420" alt="Sign In 2" />&nbsp;
-<img src="http://cdn.pttrns.com/422/4511_w250.jpg" height="420" alt="Sign In 3" />
+| Unsplash | Pinterest | Etsy |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_2144.png" width="280" alt="Unsplash Sign In" /> | <img src="https://designvault.io/wp-content/uploads/2021/01/IMG_0083.png" width="280"  alt="Pinterest Sign In" /> | <img src="https://designvault.io/wp-content/uploads/2020/05/IMG_1972-1.png" width="280" alt="Etsy Sign In" /> |
 
 And of course, signup:
 
-<img src="http://cdn.pttrns.com/399/4181_w250.jpg" height="420" alt="Sign Up" />&nbsp;
-<img src="http://cdn.pttrns.com/531/6208_w250.jpg" height="420" alt="Sign Up 2" />&nbsp;
-<img src="http://cdn.pttrns.com/336/6137_w250.jpg" height="420" alt="Sign Up 3" />
+| Reddit | AirBnB | Twitch |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2021/01/02.png" width="280" alt="Reddit Sign Up" /> | <img src="https://designvault.io/wp-content/uploads/2020/05/IMG_2065.png" width="280" alt="AirBnB Sign Up" /> | <img src="https://designvault.io/wp-content/uploads/2021/01/IMG_0032.png" width="280" alt="Twitch Sign Up" /> |
 
-Check out more examples of login screens on [pttrns](https://pttrns.com/android-patterns?scid=17) and sign up pages on [pttrns](https://pttrns.com/android-patterns?scid=9).
+Check out more examples of [login screens](https://designvault.io/pattern/sign-in/?_platform=iphone) and [sign up pages](https://designvault.io/pattern/sign-up/) at [Design Vault](https://designvault.io/).
 
 ### 2. Stream
 
@@ -76,11 +76,11 @@ Streams usually require the following components:
 
 **Examples:**
 
-<img src="http://cdn.pttrns.com/534/6259_w250.jpg" height="420" alt="Stream" />&nbsp;
-<img src="http://cdn.pttrns.com/396/4146_w250.jpg" height="420" alt="Stream" />&nbsp;
-<img src="http://cdn.pttrns.com/353/6108_w250.jpg" height="420" alt="Stream" />
+| Medium | Overcast | IMDb |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_2474.png" width="280" alt="Medium Stream" /> | <img src="https://designvault.io/wp-content/uploads/2021/01/IMG_0151.png" width="280" alt="Overcast Stream" /> | <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_2221.png" width="280" alt="IMDb Stream" /> |
 
-Check out more examples of streams on [pttrns](https://pttrns.com/android-patterns?scid=11).
+Check out more examples of streams on [Design Vault](https://designvault.io/pattern/collections/?_platform=iphone).
 
 ### 3. Detail
 
@@ -99,11 +99,11 @@ Detail views usually require the following components:
 
 **Examples:**
 
-<img src="http://68.media.tumblr.com/0738655266cd17a0c96d5943e8cef331/tumblr_o60r3ewWOW1r2wjwko5_250.png" height="420" alt="Detail" />&nbsp;
-<img src="http://cdn.pttrns.com/351/3493_w250.jpg" height="420" alt="Detail" />&nbsp;
-<img src="http://68.media.tumblr.com/3bf1585c110ec3493c5756296eaaa4bf/tumblr_ngodqroIOp1r2wjwko5_250.png" height="420" alt="Detail" />
+| Pocket Casts | Seven | Hopper |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_DC1B871E873B-1.jpeg" width="280" alt="Pocket Casts Details" /> | <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_2395.png" width="280" alt="Seven Details" /> | <img src="https://designvault.io/wp-content/uploads/2020/04/IMG_1511.png" width="280" alt="Hopper Details" /> |
 
-Check out more examples of detail screens on [pttrns](https://pttrns.com/android-patterns?scid=54).
+Check out more examples of detail screens on [Design Vault](https://designvault.io/pattern/detail-view/?_platform=iphone).
 
 ### 4. Creation
 
@@ -125,13 +125,14 @@ Creation screens usually require the following tasks:
 
 **Examples:**
 
-<img src="http://68.media.tumblr.com/e1df69f85950abdfc18209437e075496/tumblr_nubrrgrwuI1r2wjwko5_250.png" height="420" alt="Creation" />&nbsp;
-<img src="http://68.media.tumblr.com/24ae04fb6c007c9bc771cc269e97eb87/tumblr_ntrvs7zGvr1r2wjwko5_250.png" height="420" alt="Creation" />&nbsp;
-<img src="http://68.media.tumblr.com/ecfd265ee9185621a4df6ca1a6111f0f/tumblr_mz9930Lwvb1r2wjwko2_250.png" height="420" alt="Creation" />
-<img src="http://68.media.tumblr.com/7d99e88a28cf4aac41d0a9011720d53c/tumblr_n1mxepbR2s1r2wjwko3_250.png" height="420" alt="Creation" />
 
 
-Check out more examples of creation screens on [pttrns](https://pttrns.com/android-patterns?scid=19).
+| Clubhouse | Reddit | Dispo |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2021/03/21.jpg" width="280" alt="Clubhouse Create" /> | <img src="https://designvault.io/wp-content/uploads/2021/01/26.png" width="280" alt="Reddit Create" /> | <img src="https://designvault.io/wp-content/uploads/2021/02/13-new-rolls.png" width="280" alt="Dispo Create" /> |
+
+Check out more examples of creation screens on [Design Vault](https://designvault.io/pattern/create-add-compose/?_platform=iphone).
+
 
 ### 5. Profile
 
@@ -149,11 +150,11 @@ Profile screens usually require the following components:
 
 **Examples:**
 
-<img src="http://cdn.pttrns.com/353/6124_w250.jpg" height="420" alt="Profile" />&nbsp;
-<img src="http://68.media.tumblr.com/42420c6bbe58829c3fd56e2d85e544eb/tumblr_nqu31wL6WT1r2wjwko5_250.png" />&nbsp;
-<img src="http://68.media.tumblr.com/64d0d7baecd9b76f3badc0628137f1fe/tumblr_o60rraLQzl1r2wjwko3_250.png" height="420" alt="Profile" />
+| Pinterest | Dispo | Seven |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2021/01/IMG_0124.png" width="280" alt="Pinterest Profile" /> | <img src="https://designvault.io/wp-content/uploads/2021/02/17-profile.png" width="280" alt="Dispo Profile" /> | <img src="https://designvault.io/wp-content/uploads/2020/06/IMG_2398.png" width="280" alt="Seven Profile" /> |
 
-Check out more examples of profile screens on [pttrns](https://pttrns.com/android-patterns?scid=20).
+Check out more examples of profile screens on [Design Vault](https://designvault.io/pattern/profile/?_platform=iphone).
 
 ### 6. Settings
 
@@ -170,16 +171,13 @@ Settings screens usually require the following components:
 * Affecting behavior of push notifications 
   * See: [[push messaging|Push Messaging]], [[notifications|Notifications]]
 
-**Examples:**
+| Carrot | Twitch | Seven |
+| -------- | --------- |-----|
+| <img src="https://designvault.io/wp-content/uploads/2021/06/13-settings.jpg" width="280" alt="Carrot Settings" /> | <img src="https://designvault.io/wp-content/uploads/2021/01/IMG_0046.png" width="280" alt="Twitch Settings" /> | <img src="https://designvault.io/wp-content/uploads/2020/04/IMG_1701.png" width="280" alt="Todoist Settings" /> |
 
-<img src="http://cdn.pttrns.com/532/6227_w250.jpg" height="420" alt="Profile" />&nbsp;
-<img src="http://cdn.pttrns.com/345/6033_w250.jpg" height="420" alt="Profile" />&nbsp;
-<img src="http://68.media.tumblr.com/479eeffd3b1174453a6ceb732c92eaa1/tumblr_mohaz18J5z1r2wjwko6_250.png" height="420" alt="Profile" />
-
-Check out more examples of settings screens on [pttrns](https://pttrns.com/android-patterns?scid=16&y=2016).
+Check out more examples of settings screens on [Design Vault](https://designvault.io/pattern/profile/?_platform=iphone).
 
 ## References
 
-* <https://pttrns.com/android-patterns/>
-* <http://androidniceties.tumblr.com//>
-
+* <https://designvault.io>
+* <http://androidniceties.tumblr.com>
