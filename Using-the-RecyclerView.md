@@ -516,7 +516,7 @@ public static final DiffUtil.ItemCallback<Contact> DIFF_CALLBACK =
             }
             @Override
             public boolean areContentsTheSame(Contact oldItem, Contact newItem) {
-                return (oldItem.getName() == newItem.getName() && oldItem.isOnline() == newItem.isOnline());
+                return (oldItem.getName().equals(newItem.getName())  && oldItem.isOnline() == newItem.isOnline());
             }
         };
 ```
@@ -565,13 +565,14 @@ override fun getItemCount(): Int {
 }
 ```
 
-We will also add a helper function to add more contacts.  Anytime we wish to add more contacts, will use this method instead.  A `submitList()` function provided by the ListAdapter will trigger the comparison.
+We will also add a helper function to add more contacts.  Anytime we wish to add more contacts, will use this method instead.  A `submitList()` function provided by the ListAdapter will trigger the comparison. You will also use this the first time you set the list (in your MainActivity).
 
 ```java
 public void addMoreContacts(List<Contact> newContacts) {
   mContacts.addAll(newContacts);
   submitList(mContacts); // DiffUtil takes care of the check
 }
+
 ```
 ```kotlin
 fun addMoreContacts(newContacts: List<Contact>) {
@@ -588,6 +589,7 @@ Change from:
 public void onBindViewHolder(ViewHolder holder, int position) {
    // remove this line
    Contact contact = mContacts.get(position);
+
 ```
 ```kotlin
 override fun onBindViewHolder(holder: ViewHolder, position: Int) {
@@ -645,7 +647,7 @@ public class ContactDiffCallback extends DiffUtil.Callback {
         Contact oldContact = mOldList.get(oldItemPosition);
         Contact newContact = mNewList.get(newItemPosition);
 
-        return oldContact.getName() == newContact.getName() && oldContact.isOnline() == newContact.isOnline()
+        return oldContact.getName().equals(newContact.getName())  && oldContact.isOnline() == newContact.isOnline()
     }
 }
 ```
@@ -1034,7 +1036,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
         public void onClick(View view) {
             int position = getAbsoluteAdapterPosition(); // gets item position
             if (position != RecyclerView.NO_POSITION) { // Check if an item was deleted, but the user clicked it before the UI removed it
-                User user = users.get(position);
+                Contacts contact = users.get(position);
                 // We can access the data within the views
                 Toast.makeText(context, tvName.getText(), Toast.LENGTH_SHORT).show();
             }
@@ -1187,7 +1189,7 @@ ContactsAdapter adapter = ...;
 adapter.setOnItemClickListener(new ContactsAdapter.OnItemClickListener() {
     @Override
     public void onItemClick(View view, int position) {
-        String name = users.get(position).name;
+        String name = contacts.get(position).getName();
         Toast.makeText(UserListActivity.this, name + " was clicked!", Toast.LENGTH_SHORT).show();
     }
 });
@@ -1197,7 +1199,7 @@ adapter.setOnItemClickListener(new ContactsAdapter.OnItemClickListener() {
 val adapter: ContactsAdapter = ...
 adapter.setOnItemClickListener(object : ContactsAdapter.OnItemClickListener {
     override fun onItemClick(itemView: View?, position: Int) {
-        val name = users[position].name
+        val name = contacts[position].name
         Toast.makeText(this@UserListActivity, "$name was clicked!", Toast.LENGTH_SHORT).show()
     }
 })
